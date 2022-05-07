@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	border: 0;
+	font-family: Raleway, sans-serif;
+	color: #ffffff;
+    text-align: center;
+	background-color: #000000;
+}
+
+/* HEADER */
+
+header h1 {
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0;
+	padding:  8px;
+}
+
+header img {
+	width: 100%;
+    display: block;
+}
+
+/*DESCRIPCIÓN*/
+
+.descripción {
+	margin: 0;
+	padding: 60px 0;
+}
+
+.contenido {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.desc-contenido {
+	width: 60%;
+	display: inline-block;
+	padding-right: 80px;
+	text-align: justify;
+	vertical-align: middle;
+}
+
+.desc-img {
+	display: inline-block;
+	width: 30%;	
+	vertical-align: middle;
+}
+
+.desc-img img {
+	width: 100%;
+}
+
+/*ICONOS*/
+
+.icons-section {
+	background-color: #1E1A13;
+	text-align: center;
+	padding: 50px;
+}
+
+.icons-section h2 {
+	font-weight: 500;
+	font-size: 40px;
+	margin-bottom: 1em;
+}
+
+.icons {
+	display: inline-block;
+	width: 30%;
+}
+
+.icons p {
+	font-size: 25px;
+	font-weight: 300;
+}
+
+/*IMAGENES*/
+
+.galeria {
+	text-align: center;
+	padding: 75px 0;
+}
+
+.images {
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.images img {
+	width: 90%;
+	height: 190px;
+	object-fit: cover;
+}
+
+/*FOOTER*/
+
+footer {
+	background-color: #1E1A13;
+	text-align: center;
+	padding: 20px;
+	color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
